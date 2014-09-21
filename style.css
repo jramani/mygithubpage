@@ -1,0 +1,20 @@
+body{
+	color:#484e55;
+	font-size:.75em;
+	line-height:1.4;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-top:5px solid #484e55
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #aaa;
+    background-image: -webkit-linear-gradient(left, #ccc, #aaa, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #aaa, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #aaa, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #aaa, #ccc); 
+}
+
+@media print{*,:after,:before{background:0 0!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}blockquote,pre{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}img,tr{page-break-inside:avoid}img{max-width:100%!important}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
